@@ -1,0 +1,80 @@
+[
+  {
+    "label": "Name",
+    "value": "name"
+  },
+  {
+    "label": "Other",
+    "value": "other",
+    "children": [
+      {
+        "label": "Age",
+        "value": "age"
+      },
+      {
+        "label": "Address",
+        "children": [
+          {
+            "label": "Street",
+            "value": "street"
+          },
+          {
+            "label": "Block",
+            "children": [
+              {
+                "label": "Building",
+                "value": "building",
+                "children": [
+                  {
+                    "label": "leftBuilding",
+                    "value": "leftb"
+                  },
+                  {
+                    "label": "middleBuilding",
+                    "value": "middleb"
+                  },
+                  {
+                    "label": "rightBuilding",
+                    "value": "rightb"
+                  }
+                ]
+              },
+              {
+                "label": "Door No.",
+                "value": "number",
+                "children": [
+                  {
+                    "label": "leftDoor",
+                    "value": "leftd"
+                  },
+                  {
+                    "label": "rightDoor",
+                    "value": "rightd"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "Company",
+    "value": "company",
+    "children": [
+      {
+        "label": "Company Address",
+        "value": "companyAddress"
+      },
+      {
+        "label": "Company Name",
+        "value": "companyName"
+      }
+    ]
+  },
+  {
+    "label": "Gender",
+    "value": "gender"
+  }
+]
